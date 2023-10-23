@@ -1,0 +1,56 @@
+/* Style untuk paginate */
+ul.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a,
+ul.pagination li span {
+    color: #333;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 2px;
+}
+
+ul.pagination li.active span {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+ul.pagination li a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+/* Style untuk halaman sebelum dan sesudah */
+ul.pagination li:first-child a,
+ul.pagination li:last-child a {
+    margin: 0;
+}
+
+/* Style untuk navigasi sebelum dan sesudah */
+ul.pagination .prev,
+ul.pagination .next {
+    padding: 6px 12px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    margin: 2px;
+    color: #007bff;
+    text-align: center;
+}
+
+ul.pagination .prev:hover,
+ul.pagination .next:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
